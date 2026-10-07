@@ -6,8 +6,8 @@
 
 **Messy folders, organized by what's _inside_ your files — entirely on your own computer.**
 
-[![macOS](https://img.shields.io/badge/macOS-14%2B-000000?logo=apple&logoColor=white)](#-macos)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)](#-windows)
+[![macOS](https://img.shields.io/badge/macOS-14%2B-000000?logo=apple&logoColor=white)](#macos)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA4OCIgcm9sZT0iaW1nIj48dGl0bGU%2BV2luZG93czwvdGl0bGU%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTAgMGg0MnY0Mkgwek00NiAwaDQydjQySDQ2ek0wIDQ2aDQydjQySDB6TTQ2IDQ2aDQydjQySDQ2eiIvPjwvc3ZnPgo%3D)](#windows)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](engine)
 [![EmbeddingGemma 2](https://img.shields.io/badge/EmbeddingGemma%202-on--device-4285F4?logo=google&logoColor=white)](https://huggingface.co/google/embeddinggemma-2)
 [![Offline](https://img.shields.io/badge/100%25-offline-2ea44f)](#-safety-and-privacy)
@@ -66,7 +66,7 @@ No account. No cloud. No upload. The AI runs on your machine.
 </table>
 
 <details>
-<summary><b>🪟 The Windows app</b> (click to expand)</summary>
+<summary><img src="docs/logos/windows.svg" height="14" alt="Windows">&nbsp;<b>The Windows app</b> (click to expand)</summary>
 <br>
 
 <table>
@@ -150,7 +150,9 @@ The result: folders that come **from your files**, not from a fixed list of cate
 > **You'll need about 6 GB of disk** for the engine and models (EmbeddingGemma 2 ≈ 1.5 GB, Llama 3.2 3B ≈ 1.8 GB, PyTorch).
 > Everything is downloaded once; after that SmartSort works offline.
 
-### 🍎 macOS
+<a id="macos"></a>
+
+### <picture><source media="(prefers-color-scheme: dark)" srcset="docs/logos/apple-white.svg"><img src="docs/logos/apple-black.svg" height="22" alt="Apple"></picture>&nbsp; macOS
 
 **Requirements:** macOS 14 Sonoma or later · Apple silicon recommended (Intel works too) · [Xcode](https://apps.apple.com/app/xcode/id497799835) 16 or later to build the app · [Git](https://git-scm.com)
 
@@ -199,7 +201,9 @@ engine/.venv/bin/smartsort models
 Options: `./scripts/setup-macos.sh --no-app` (engine and models only) · `--no-naming-model`.
 </details>
 
-### 🪟 Windows
+<a id="windows"></a>
+
+### <img src="docs/logos/windows.svg" height="20" alt="Windows">&nbsp; Windows
 
 > The Windows app is new. If something doesn't work on your PC, please [open an issue](https://github.com/anshkapuriya01/SmartSort/issues) — it helps a lot.
 

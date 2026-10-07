@@ -1,7 +1,7 @@
 # SmartSort for Windows (and Linux)
 
 A Qt (PySide6) desktop app for the SmartSort engine, with the same features as the macOS app.
-See the [main README](../README.md#-windows) for setup — in short:
+See the [main README](../README.md#windows) for setup — in short:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File windows\setup.ps1      # add -Cuda for an NVIDIA GPU
