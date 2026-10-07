@@ -1,0 +1,35 @@
+[project]
+name = "smartsort"
+version = "1.0.0"
+description = "Organize a messy folder by what's inside the files, using EmbeddingGemma 2 on your own computer."
+license = "MIT"
+authors = [{ name = "Ansh Kapuriya" }]
+requires-python = ">=3.11"
+dependencies = [
+    "sentence-transformers>=6.0",
+    "transformers>=5.13",
+    "torch",
+    "torchvision",
+    "pymupdf",
+    "python-docx",
+    "python-pptx",
+    "pillow",
+    "pillow-heif",
+    "numpy",
+    "scikit-learn",
+    "mlx-lm; sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "huggingface_hub",
+]
+
+[project.optional-dependencies]
+app = ["PySide6>=6.7"]  # the desktop app for Windows and Linux (see ../windows)
+
+[project.scripts]
+smartsort = "smartsort.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["smartsort"]

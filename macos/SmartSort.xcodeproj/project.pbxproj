@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D00E48B391070003F28E07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1F258C7E44D729816DBFE /* Assets.xcassets */; };
+		108FD5E2C81C64E2A8213798 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2217F3BE22A56234E130305 /* Engine.swift */; };
+		12F90070B2427F309B16EBFB /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CD6822C19E094351EE8039 /* SidebarView.swift */; };
+		310D825001870E3EF77E7B7A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF8C3160B6925769EF2109 /* AppModel.swift */; };
+		3DED1D304CC61B6AB3241D74 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BBE725BB774F01154F0A8 /* Models.swift */; };
+		476B7E24B29CDCE171F8D531 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD47B28B74D38BADABC5B6 /* ReviewView.swift */; };
+		5D04E4406D08BD1D07BC508C /* StatusViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CCE34203A769DFD069CCC /* StatusViews.swift */; };
+		5E196A0A328E7A931A7F27AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C539CEDE2C39B7A65553F05 /* ContentView.swift */; };
+		75CB55F98BC3E3DEE5489B92 /* ModelCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2844DF3E0D3DB6A9E354E3 /* ModelCheck.swift */; };
+		9C102B4BA2AA55B3A0096237 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98388AEC75475BF9B24B60E9 /* Theme.swift */; };
+		A0729FBC4F772E3364043745 /* SmartSortApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A821775162A2329219366C70 /* SmartSortApp.swift */; };
+		D8031DF6DBAD30A15BCAFBCF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141460A9E552AC40EBCD7152 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		141460A9E552AC40EBCD7152 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		195CCE34203A769DFD069CCC /* StatusViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViews.swift; sourceTree = "<group>"; };
+		1C539CEDE2C39B7A65553F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31DD47B28B74D38BADABC5B6 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		364BBE725BB774F01154F0A8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7EE1F258C7E44D729816DBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80243C214919E5B8EA4B59D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98388AEC75475BF9B24B60E9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A821775162A2329219366C70 /* SmartSortApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSortApp.swift; sourceTree = "<group>"; };
+		BB2844DF3E0D3DB6A9E354E3 /* ModelCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCheck.swift; sourceTree = "<group>"; };
+		C8CD6822C19E094351EE8039 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		D5718E59E2D2A5FB1CFCC86D /* SmartSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2217F3BE22A56234E130305 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		FEAF8C3160B6925769EF2109 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		59D7F6109DB908CA0C487330 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EE1F258C7E44D729816DBFE /* Assets.xcassets */,
+				80243C214919E5B8EA4B59D8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B19C544862BAF8E900E2A3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF8C3160B6925769EF2109 /* AppModel.swift */,
+				A821775162A2329219366C70 /* SmartSortApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		98501587307EA2F903F9CCD5 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				F2217F3BE22A56234E130305 /* Engine.swift */,
+				BB2844DF3E0D3DB6A9E354E3 /* ModelCheck.swift */,
+				364BBE725BB774F01154F0A8 /* Models.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		BEDC7902FE43E1E3D8EBC7B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5718E59E2D2A5FB1CFCC86D /* SmartSort.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF681DB035806C77DE6248B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C539CEDE2C39B7A65553F05 /* ContentView.swift */,
+				31DD47B28B74D38BADABC5B6 /* ReviewView.swift */,
+				141460A9E552AC40EBCD7152 /* SettingsView.swift */,
+				C8CD6822C19E094351EE8039 /* SidebarView.swift */,
+				195CCE34203A769DFD069CCC /* StatusViews.swift */,
+				98388AEC75475BF9B24B60E9 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E92729BC9E66C9D4947C3BAD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B19C544862BAF8E900E2A3E /* App */,
+				98501587307EA2F903F9CCD5 /* Engine */,
+				CF681DB035806C77DE6248B8 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F34EC77CE784A8729681B577 = {
+			isa = PBXGroup;
+			children = (
+				59D7F6109DB908CA0C487330 /* Resources */,
+				E92729BC9E66C9D4947C3BAD /* Sources */,
+				BEDC7902FE43E1E3D8EBC7B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0A289D22221A6EA69ADBB5 /* SmartSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63442D2D15262573E851BE07 /* Build configuration list for PBXNativeTarget "SmartSort" */;
+			buildPhases = (
+				7BADE5217BF658E7CA4E98DE /* Sources */,
+				E13EBD1CC51D11344F2E4190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSort;
+			packageProductDependencies = (
+			);
+			productName = SmartSort;
+			productReference = D5718E59E2D2A5FB1CFCC86D /* SmartSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482A8D140B3AC26873BEE2CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF0A289D22221A6EA69ADBB5 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 39087ACAA4D6C14B8D70A1C7 /* Build configuration list for PBXProject "SmartSort" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F34EC77CE784A8729681B577;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BEDC7902FE43E1E3D8EBC7B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0A289D22221A6EA69ADBB5 /* SmartSort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E13EBD1CC51D11344F2E4190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D00E48B391070003F28E07E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BADE5217BF658E7CA4E98DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310D825001870E3EF77E7B7A /* AppModel.swift in Sources */,
+				5E196A0A328E7A931A7F27AF /* ContentView.swift in Sources */,
+				108FD5E2C81C64E2A8213798 /* Engine.swift in Sources */,
+				75CB55F98BC3E3DEE5489B92 /* ModelCheck.swift in Sources */,
+				3DED1D304CC61B6AB3241D74 /* Models.swift in Sources */,
+				476B7E24B29CDCE171F8D531 /* ReviewView.swift in Sources */,
+				D8031DF6DBAD30A15BCAFBCF /* SettingsView.swift in Sources */,
+				12F90070B2427F309B16EBFB /* SidebarView.swift in Sources */,
+				A0729FBC4F772E3364043745 /* SmartSortApp.swift in Sources */,
+				5D04E4406D08BD1D07BC508C /* StatusViews.swift in Sources */,
+				9C102B4BA2AA55B3A0096237 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8F486601B154335E4664B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmartSort;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "SmartSort organises the folders you choose.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "SmartSort organises the folders you choose.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "SmartSort organises the folders you choose.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anshkapuriya.SmartSort;
+				PRODUCT_NAME = SmartSort;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BBFF8D1EFAFE3EF1C3FA3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmartSort;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "SmartSort organises the folders you choose.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "SmartSort organises the folders you choose.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "SmartSort organises the folders you choose.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anshkapuriya.SmartSort;
+				PRODUCT_NAME = SmartSort;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC919BD177044B4284C519FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FC1CF4DCB58FA9FC8A7AF3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39087ACAA4D6C14B8D70A1C7 /* Build configuration list for PBXProject "SmartSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC919BD177044B4284C519FD /* Debug */,
+				FC1CF4DCB58FA9FC8A7AF3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63442D2D15262573E851BE07 /* Build configuration list for PBXNativeTarget "SmartSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFF8D1EFAFE3EF1C3FA3867 /* Debug */,
+				A8F486601B154335E4664B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 482A8D140B3AC26873BEE2CB /* Project object */;
+}

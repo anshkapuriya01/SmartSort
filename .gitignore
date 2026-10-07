@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+build/
+dist/
+
+# Xcode
+macos/build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Models (downloaded separately, never committed)
+models/
+*.safetensors
+*.gguf
+*.bin
+
+# SmartSort's own state inside organized folders
+.smartsort/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
